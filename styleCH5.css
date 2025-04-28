@@ -1,0 +1,80 @@
+body {
+    background-image: url('buatbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #f0f0f0;
+    text-align: center  ;
+  }
+  
+  
+  h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #733C3C;
+    background: #E4EAC5;
+    color: #361500;
+    box-shadow: 1px 1px 2px #C6987B;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+  }
+  
+  .media-section {
+    margin-bottom: 30px;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 8px 15px;
+    font-size: 14px;
+    font-style: italic;
+    border-radius: 8px;
+    border: 2px solid #aaa;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+.media-caption {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #f5f5f5;
+    position: relative;
+    overflow: hidden;
+}
+.audio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.audio-container img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+video, iframe, img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.media-caption:hover {
+    background-color: #fcffd16c;
+    border-color: #ffffff;
+    transform: scale(1.05);
+    cursor: pointer;
+}
